@@ -44,3 +44,7 @@
 .progress .progress-bar.progress-bar-lblue {
     background: #32c8de;
 }
+.work-experience{
+    display: flex;
+    align-content: space-around;
+}
