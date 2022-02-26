@@ -9,10 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
           crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>My Portfolio</title>
 </head>
 <body>
-<div class="navbar">
+ <div class="navbar">
     <div class="profile">
     <div class="navbar">
 
@@ -29,6 +30,7 @@
         <h2>Ian Sang</h2>
         <p>I'm <span class="typed" data-typed-items="Designer, Developer, Entrepreneur, "></span></p>
     </div>
+ </div>
  </div>
     <div id="about">
         <div class="text-center"><h2>ABOUT ME</h2></div>
@@ -85,7 +87,7 @@
             </div>
         </div>
 
-            <div class="container">
+        <div class="container">
             <div class="education text-center">
                 <caption><h2>Educational Background</h2></caption>
                 <table class="table-responsive table-bordered">
@@ -131,7 +133,6 @@
                     </tbody>
                 </table>
             </div>
-        </div>
         <div class="text-center"><h3>Work Experience</h3></div>
         <div class="work-experience">
             <div class="col-4">
@@ -213,10 +214,100 @@
             </div>
             </div>
         </div>
+     </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div><h4>Interested in Our Services or have any inquiries? Do not hesitate, Reach out through the below listed Contacts</h4></div>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
 
+                    <div class="card-body contact text-center h-100 white-text">
+
+                        <h3 class="my-4 pb-2">Contact information</h3>
+                        <br>
+                        <ul class="text-lg-left list-unstyled ml-4">
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p> Ngong, Nairobi, KENYA</p>
+                            </li>
+                            <br>
+
+                            <li>
+                                <p><i class="fas fa-envelope pr-2"></i>ianosang18@gmail.com</p>
+                            </li>
+                            <br>
+                            <li>
+                                <p><i class="fas fa-envelope pr-2"></i>P.O. Box 9074 - 00200, Nairobi.</p>
+                            </li>
+                        </ul>
+                        <hr class="hr-light my-4">
+                        <ul class="list-inline text-center list-unstyled">
+                            <li class="list-inline-item">
+                                <a class="p-2 fa-lg tw-ic">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="p-2 fa-lg li-ic">
+                                    <i class="fab fa-linkedin-in"> </i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="p-2 fa-lg ins-ic">
+                                    <i class="fab fa-instagram"> </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Leave a Message</h4>
+                    <div class="alert alert-success hidden" id="contactSuccess">
+                        <strong>Success!</strong> Your message has been sent to us.
+                    </div>
+                    <div class="alert alert-error hidden" id="contactError">
+                        <strong>Error!</strong> There was an error sending your message.
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form" role="form" novalidate="novalidate">
+                            <div class="form-group has-feedback">
+                                <label for="name">Name*</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="">
+                                <i class="fa fa-user form-control-feedback"></i>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <label for="email">Email*</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="">
+                                <i class="fa fa-envelope form-control-feedback"></i>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <label for="subject">Subject*</label>
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="">
+                                <i class="fa fa-navicon form-control-feedback"></i>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <label for="message">Message*</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" placeholder=""></textarea>
+                                <i class="fa fa-pencil form-control-feedback"></i>
+                            </div>
+                            <input type="submit" value="Submit" class="btn btn-default">
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
     </div>
-
-</div>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
