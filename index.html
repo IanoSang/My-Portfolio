@@ -5,126 +5,195 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>My Portfolio</title>
 </head>
 <body>
- <div class="navbar">
-    <div class="profile">
-    <div class="navbar">
 
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="#">PROFILE</a></li>
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">SKILLS</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">HOBBIES</a></li>
-            <li><a href="#">CONTACT ME</a></li>
-        </ul>
-    </div>
+<div id="profile">
+
     <div class="text-center" data-aos="zoom-in" data-aos-delay="100">
         <h2>Ian Sang</h2>
         <p>I'm <span class="typed" data-typed-items="Designer, Developer, Entrepreneur, "></span></p>
     </div>
  </div>
- </div>
+
     <div id="about">
         <div class="text-center"><h2>ABOUT ME</h2></div>
-
-        <div class="about-text">
+      <div class="row">
+        <div class="about-text col-lg-4">
             <div class="personal-info">
-                <h4>Personal Information</h4>
+                <h3>Personal Information</h3>
+                <hr>
                 <ul>
+                    <br>
                     <li>Full Name: Ian Kipkoech Sang
                     </li>
+                    <br>
                     <li>Age:22 Years
                     </li>
+                    <br>
                     <li>Nationality: kenyan
                     </li>
+                    <br>
                     <li>Gender: Male
                     </li>
+                    <br>
                     <li>Marital Status: Single
                     </li>
+                    <br>
                     <li>Languages: English and Kiswahili
                     </li>
                 </ul>
             </div>
 
-            <div class="skills">
-
-                    <div class="block-heading-two">
-                        <h4><span>My Skills</span></h4>
-                    </div>
-                    <h6>Web Development</h6>
-                    <div class="progress pb-sm">
-                        <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                            <span class="sr-only">40% Complete (success)</span>
-                        </div>
-                    </div>
-                    <h6>Designing</h6>
-                    <div class="progress pb-sm">
-                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                            <span class="sr-only">40% Complete (success)</span>
-                        </div>
-                    </div>
-                    <h6>Team Management</h6>
-                    <div class="progress pb-sm">
-                        <div class="progress-bar progress-bar-lblue" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                            <span class="sr-only">40% Complete (success)</span>
-                        </div>
-                    </div>
-                    <h6>Soft Skills</h6>
-                    <div class="progress pb-sm">
-                        <div class="progress-bar progress-bar-yellow" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                            <span class="sr-only">40% Complete (success)</span>
-                        </div>
-                    </div>
-
-            </div>
         </div>
-
+        <!------Skills---------------->
+        <section class="colorlib-skills col-lg-6" data-section="skills">
+            <div class="colorlib-narrow-content">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                        <!--	<span class="heading-meta">My Specialty</span> -->
+                        <h3>Skills</h3>
+                        <hr>
+                    </div>
+                </div>
+                <p>These are among technologies, frameworks, languages and databases that I have previously worked with and enjoy working with them.</p>
+                <div class="row">
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="progress-wrap">
+                            <h3 style="font-weight: 500;">C/C++(STL)</h3>
+                            <div class="progress">
+                                <div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                        <div class="progress-wrap">
+                            <h3 style="font-weight: 500;">Python/Django</h3>
+                            <div class="progress">
+                                <div class="progress-bar color-2" role="progressbar" aria-valuenow="40"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                    <span>40%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="progress-wrap">
+                            <h3 style="font-weight: 500;">Angular 6,7</h3>
+                            <div class="progress">
+                                <div class="progress-bar color-3" role="progressbar" aria-valuenow="30"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                    <span>30%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                        <div class="progress-wrap">
+                            <h3 style="font-weight: 500;">Spring-boot</h3>
+                            <div class="progress">
+                                <div class="progress-bar color-4" role="progressbar" aria-valuenow="20"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                                    <span>20%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="progress-wrap">
+                            <h3 style="font-weight: 500;">Java/Android</h3>
+                            <div class="progress">
+                                <div class="progress-bar color-5" role="progressbar" aria-valuenow="50"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                        <div class="progress-wrap">
+                            <h3 style="font-weight: 500;">MySQL/MongoDB</h3>
+                            <div class="progress">
+                                <div class="progress-bar color-6" role="progressbar" aria-valuenow="50"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="progress-wrap">
+                            <h3 style="font-weight: 500;">GitHub</h3>
+                            <div class="progress">
+                                <div class="progress-bar color-7" role="progressbar" aria-valuenow="70"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                        <div class="progress-wrap">
+                            <h3 style="font-weight: 500;">Nodejs</h3>
+                            <div class="progress">
+                                <div class="progress-bar color-3" role="progressbar" aria-valuenow="20"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                                    <span>20%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
         <div class="container">
             <div class="education text-center">
                 <caption><h2>Educational Background</h2></caption>
                 <table class="table-responsive table-bordered">
 
                     <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">INSTITUTION</th>
-                        <th scope="col">PERIOD</th>
-                        <th scope="col">COURSE</th>
-                        <th scope="col">QUALIFICATION</th>
+                    <tr id="inst">
+                        <th scope="col" class="text-center">#</th>
+                        <th scope="col" class="text-center">INSTITUTION</th>
+                        <th scope="col" class="text-center">PERIOD</th>
+                        <th scope="col" class="text-center">COURSE</th>
+                        <th scope="col" class="text-center">QUALIFICATION</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <th scope="row">UNIVERSITY</th>
+                    <tr id="uni">
+                        <th scope="row" class="text-center">UNIVERSITY</th>
                         <td>KCA University</td>
                         <td>January 2020 - November 2021</td>
                         <td>Business Information Technology</td>
                         <td>Credit</td>
                     </tr>
-                    <tr>
-                        <th scope="row">COLLEGE</th>
+                    <tr id="college">
+                        <th scope="row" class="text-center">COLLEGE</th>
                         <td>Moringa School</td>
                         <td>Current</td>
                         <td>Software Development</td>
                         <td>Pass</td>
                     </tr>
-                    <tr>
-                        <th scope="row">HIGH SCHOOL</th>
+                    <tr id="high">
+                        <th scope="row" class="text-center">HIGH SCHOOL</th>
                         <td>Tenwek High</td>
                         <td>February 2015 - November 2018</td>
                         <td>Kenya Certificate of Secondary Education</td>
                         <td>Pass</td>
                     </tr>
-                    <tr>
-                        <th scope="row">PRIMARY SCHOOL</th>
+                    <tr id="rayma">
+                        <th scope="row" class="text-center">PRIMARY SCHOOL</th>
                         <td>Chumo Schools</td>
                         <td>January 2008 - October 2014</td>
                         <td>Kenya Certificate of Primary Education</td>
@@ -216,20 +285,54 @@
         </div>
      </div>
     </div>
- <div id="projects">
-     <div class="text-center"> <h3>Projects</h3></div>
+ <section id="projects">
+     <div class="text-center"> <h3>Projects</h3>
+         <p>I have worked on several projects, both independent and team projects. Here is a sample of the projects;</p>
+     </div>
      <div class="container">
          <div class="row">
-             <div class="col-lg-4">
-                 <h6>Bormer Consult Official Website</h6>
+             <div class="col-md-6"><img src="images/work.jpeg" class="img-center" alt="" /></div>
+             <div class="col-md-6">
+                 <div> <h6>Bormer Consult Official Website</h6>
+                     <p>This is BORMER Consult official website. Bormer Consult is a Kenyan privately owned company
+                         founded in 2018 and headquartered in Nairobi. Bormer Consult assists corporate clients and
+                         parties with operations and installation in Kenya. Bormer Consult is established as a consultancy
+                         to exclusively provide immigration services.</p>
+                     <ul>
+                         <li>HTML</li>
+                         <li>CSS</li>
+                         <li>JAVASCRIPT</li>
+                     </ul>
+                     <h6>Maisha Insuarance Website</h6>
+                     <P>This is landing page website for  insurance company called Maisha Insuarance</P>
+                     <ul>
+                         <li>HTML</li>
+                         <li>CSS</li>
+                     </ul>
+                 </div>
+                 <br/>
+
              </div>
-             <div class="col-lg-4">
-                 <h6>Maisha Insuarance Website</h6>
-             </div>
-             <div class="col-lg-4">
-                 <h6>Burger Palace</h6>
-             </div>
+
          </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h6>Burger Palace</h6>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Tenwek Quiz Board</h6>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Pick Up Trash</h6>
+                </div>
+            </div>
+         </div>
+ </section>
+
+ <div id="hobbies">
+    <div class="text-center"><h2>Personal Interest And Hobbies</h2></div>
+     <div class="container hobbies">
+
      </div>
  </div>
     <div id="contact">
@@ -314,13 +417,39 @@
                     </div>
                 </div>
 
-
             </div>
         </div>
     </div>
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="copyright">
+                    <p>
+                        <span>&copy; Bormer Consult 2022, All rights reserved. </span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <ul class="social-network">
+                    <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
+ <link rel="stylesheet" href=
+         "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+ <script src=
+                 "https://code.jquery.com/jquery-3.6.0.min.js ">
+ </script>
+ <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
