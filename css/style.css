@@ -5,6 +5,16 @@
     box-sizing: border-box;
     font-weight: 500;
 }
+.nav-item{
+    position: relative;
+    float: right;
+}
+.iano{
+    margin-top: 150px;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
 h1,h2, h3, h4, h5, h6 {
     font-family:'Open Sans', Arial, sans-serif;
     font-weight: 500;
@@ -21,7 +31,7 @@ ul{
     height: 100vh;
     background-image: url("../images/iano.jpg");
     background-size: cover;
-    opacity: 40%;
+    opacity: 70%;
 }
 #about{
     background-color: whitesmoke;
@@ -66,10 +76,22 @@ ul{
     padding: 50px 0 0;
     background: #62BD45;
     color: #fff;}
-img.img-center {
+
+.img-center {
+    height: 400px;
     margin: 0 auto;
     display: block;
     max-width: 100%;
+}
+#hobbies{
+    background-color: whitesmoke;
+}
+.hobbies ul {
+    text-align: center;
+}
+
+.hobbies li {
+    display: inline-block;
 }
 #footer{
     text-shadow:none;
@@ -77,7 +99,7 @@ img.img-center {
     padding:0;
     padding-top:30px;
     margin:20px 0 0 0;
-    background: #191919;
+    background: #1B1B1B;
 }
 
 #footer p{
