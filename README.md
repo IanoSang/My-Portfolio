@@ -34,7 +34,7 @@ This is a simple Portfolio Landing Page
 ## Reference
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
-* [BOOSTRAP].1 (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [BOOSTRAP 5.1](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 ## Known Bugs
 The responsivenes of the page on smaller devices is limited but will be improved on future realeases for the best experience use a PC
 [Go Back to the top](#By-Sang-Kipkoech-Ian)
